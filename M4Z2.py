@@ -43,10 +43,11 @@ def mnożenie(x, y):
 def dzielenie(x, y):
     if y == 0:
         logging.error("Dzielenie przez 0 nie jest możliwe")
-        return "Error: Dzielenie przez o niemożliwe"
+        return "Dzielenie przez 0 niemożliwe"
     result = x / y
     logging.info(f"dzielenie {x} / {y} = {result}")
     return result
+
 
 def kalkulator():
     print("Kalkulator")
