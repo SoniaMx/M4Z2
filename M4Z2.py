@@ -18,7 +18,7 @@ elif operator == "/":
 else:
     print(f"{operator} nie istnieje")
 
-#wersja z import.logging nie jest to na razie dla mnie zbyt zrozumiałe, pomogłam sobie chatemgpt
+#wersja z import logging, cały proces bardzo długi i póki co dla mnie nie do powtórzenia bez podglądania, pomogłam sobie chatemgpt
 
 import logging
 logging.basicConfig(
