@@ -5,16 +5,16 @@ num2 = float(input("wpisz drugą liczbę: "))
 
 if operator == "+":
     result = num1 + num2
-    print(round(result, 3))
-elif operator== "-":
+    print("wynik: " ,round(result, 3))
+elif operator == "-":
     result = num1 - num2
-    print(round(result, 3))
-elif operator== "*":
+    print("wynik: " ,round(result, 3))
+elif operator == "*":
     result = num1 * num2
-    print(round(result, 3))
-elif operator== "/":
+    print("wynik: " ,round(result, 3))
+elif operator == "/":
     result = num1 / num2
-    print(round(result, 3))
+    print("wynik: " ,round(result, 3))
 else:
     print(f"{operator} nie istnieje")
 
